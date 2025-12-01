@@ -1,0 +1,30 @@
+        
+        /* Lekte runt med lite css för att det är kul */
+        
+        body {
+            background-color: #1c2738; 
+            color: #ccc;
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 12rem;
+            padding: 2rem;
+        }
+
+        .checkbox {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .textfield, .checkbox, #button {
+            margin: 0.5rem;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #2c3e50;
+            color: #ccc;
+        }
