@@ -9,6 +9,7 @@ const colorInput = document.getElementById('color');
         // Uppdatera div vid ändring av färg, innehåll eller stil
         styleCheckbox.addEventListener('click', () => {
             // Hämta värdena från input-elementen
+            // Gör en utskrift i konsolen för att verifiera
             const selectedColor = colorInput.value;
             console.log("Färg vald:", selectedColor);
             const newContent = contentInput.value;
@@ -56,5 +57,6 @@ const colorInput = document.getElementById('color');
             outputDiv.style.width = '';
             outputDiv.style.textAlign = '';
             outputDiv.style.margin = '';
+            // Utskrift i konsolen vid knapptryckning
             console.log("Allt borta!");
         });
