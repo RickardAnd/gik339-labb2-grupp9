@@ -1,9 +1,12 @@
 console.log("Vi är igång!");
 // Här hämtar vi referenser till DOM-elementen
-const colorInput = document.getElementById('color');
+        // Använder getElementById för att hämta elementen
+        const colorInput = document.getElementById('color');
         const contentInput = document.getElementById('content');
-        const styleCheckbox = document.getElementById('divStyle');
-        const button = document.getElementById('button');
+        // Använder getElementsByClassName för att hämta checkboxen
+        const styleCheckbox = document.getElementsByClassName('checkbox')[0];
+        // Använder querySelector för att hämta knappen
+        const button = document.querySelector('#button');
         const outputDiv = document.getElementById('outputDiv');
 
         // Uppdatera div vid ändring av färg, innehåll eller stil
