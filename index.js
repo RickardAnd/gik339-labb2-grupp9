@@ -1,4 +1,4 @@
-console.log("Vi är igång!");
+console.log("Grupp 9 - Labb 2");
 // Här hämtar vi referenser till DOM-elementen
         // Använder querySelectorAll för att hämta de två textfälten
         const colorInput = document.querySelectorAll('.textfield')[0];
@@ -39,7 +39,7 @@ console.log("Vi är igång!");
                 outputDiv.style.textAlign = 'center';
                 outputDiv.style.margin = '2rem auto';
             } else {
-                // När checkboxen inte är iklickad
+                // När checkboxen är avklickad
                 outputDiv.style.fontFamily = 'cursive';
                 outputDiv.style.borderStyle = 'dashed';
                 outputDiv.style.borderRadius = '2rem';
